@@ -17,3 +17,8 @@ while (numero != 8){
     numero = parseInt(prompt("Adivina mi numero favorito. Pista: se encuentra entre 1 y 10"));
 }
 alert(`Genial ${nombre}, has adivinado!`);
+
+alert("Contador regresivo para salir");
+for(let i = 10; i >= 0; i--){
+    alert(`Continue para salir ${i}`);
+}
