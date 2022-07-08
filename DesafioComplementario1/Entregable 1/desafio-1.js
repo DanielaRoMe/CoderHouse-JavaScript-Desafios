@@ -12,7 +12,6 @@ while (numero != 8){
         default:
             alert("Creí haberte pedido un número, vuelve a intentarlo");
             break;
-
     }
     numero = parseInt(prompt("Adivina mi numero favorito. Pista: se encuentra entre 1 y 10"));
 }
